@@ -1,0 +1,84 @@
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: Cursed;
+}
+
+body {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:40px;
+    text-align:center;
+   background-image:url("Michael\ Jordan.avif");
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width:575px;
+    height:385px;
+    margin: 400px auto 100px auto;
+    background: linear-gradient( #FCA86Eff, #F4915Bff, #FC9149ff, #F3A27Dff);
+    border-radius:45px;
+    opacity:0.9;
+    border:4px solid black;
+}
+
+.container:hover{
+    background-repeat: no-repeat;
+    background-image: url("spacejam.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.points{
+    font-size:90px;
+    line-height:126.666px;
+    border:none;
+    padding:5px 15px;
+    font-family: "Cursed";
+    background:white;
+    border-radius:90px;
+}
+
+.add-buttons{
+    display:flex;
+    gap:5px;
+    margin:20px;
+}
+
+.add-btn {
+    width:45px;
+    height:45px;
+    border:2px solid black;
+    border-radius:5px;
+    font-family: "Cursed";
+    font-size:18px;
+    line-height:27.812px;
+    background-color:white;
+}
+
+#new-game-button{
+    height:25%;
+    margin:auto;
+    font-size:20px;
+    border:none;
+    border-radius:90px;
+    background-color:white;
+}
+
+#new-game-button:hover{
+    background-color:#472936ff;
+    color: #FCA86Eff
+}
+
+h3{
+    margin:50px 20px 0 20px;
+    border:2px solid black;
+    border-radius:10px;
+    padding:5px;
+    background-color:white;
+}
